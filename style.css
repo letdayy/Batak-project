@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #EF7F22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.botao {
+    width: 30px;
+    height: 26px;
+    margin-right: 13px;
+}
+
+.coxinhas {
+    display: block;
+    width: 100%;
+    height: 25.33%;
+}
+
+.box {
+    display: flex;
+    background-color: #FDEDD6;
+    width: 256.88px;
+    height: 249.82px;
+    margin: 37px 60px;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.secondbox {
+    display: flex;
+    background-color: #F9C57C;
+    align-items: center;
+    justify-content: center;
+    width: 217px;
+    height: 137px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.thirdbox {
+    width: 226.72px;
+    height: 50.83px;
+    margin: 16px;
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #F9C57C;
+    text-align: center;
+    width: 100%;
+    height: 9.45%;
+    padding: 10px;
+}
