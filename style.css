@@ -1,20 +1,162 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.menu {
-    background-color: #EF7F22;
+body {
+    background-color: bisque;
+}
+
+header {
+    background-image: linear-gradient(rgb(255, 174, 0), rgb(233, 133, 18), rgb(243, 110, 21));
+    z-index: 2;
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+ 
+}
+
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px rgba(51, 47, 47, 0.493);
+    background-color: bisque;
+
+    
 
 }
 
-.botao {
-    width: 30px;
-    height: 26px;
-    margin-right: 13px;
+.nav-list {
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+
+
+}
+
+.nav-item {
+    margin: 0 15px;
+
+}
+
+.nav-link {
+
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    background-color: rgb(230, 19, 19);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+   
+
+}
+.login-button button a{
+    text-decoration: none;
+    color: #c7c2c2;
+    font-weight: 500;
+    font-size: 15px;
+    
+
+
+}
+
+    a:active, a:hover {
+        padding: 2px;
+        background-color: #00000069;
+        border-radius: 5px;
+    }
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* MENU RESPONSIVO*/
+
+
+@media screen and (max-width:730px){
+
+.nav-bar {
+    padding: 1.5rem 4rem;
+
+}
+.nav-item {
+    display: none;
+
+}
+
+.login-button {
+    display: none;
+}
+
+.mobile-menu-icon {
+    display: block;
+  
+}
+    
+.mobile-menu-icon button {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1.2rem;
+   
+
+}
+
+
+
+.mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+
+}
+
+
+.mobile-menu .login-button {
+    display: block;
+    padding: 1rem 2rem;
+
+}
+
+.mobile-menu .login-button button {
+    width: 100%;
+    
+}
+.open{
+    display: block;
+}
 }
 
 .coxinhas {
