@@ -1,11 +1,3 @@
-// // side-bar
-// var btnMobile =  document.getElementById('#sub-btn')
-
-// function toggleMenu() {
-//    var nav = document.getElementById('#nav-menu-lateral');
-//    nav.classList.toggle('active')
-// }
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -32,3 +24,16 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+// menu
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
