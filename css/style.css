@@ -17,8 +17,7 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
- 
+    padding: 40px 20px;
 }
 
 
@@ -29,9 +28,6 @@ header {
     border-radius: 50%;
     box-shadow: 0px 0px 10px 5px rgba(51, 47, 47, 0.493);
     background-color: bisque;
-
-    
-
 }
 
 .nav-list {
@@ -61,30 +57,6 @@ header {
     font-size: 1.15rem;
     color: white;
     font-weight: 400;
-}
-
-.login-button button {
-    border-radius: 5px;
-    border: 2px solid orange;
-    background-color: rgb(5, 4, 4);
-    padding: 10px 15px;
-    margin-top: 15px;
-   
-
-}
-.login-button button a{
-    text-decoration: none;
-    color: #c7c2c2;
-    font-weight: 500;
-    font-size: 15px;
-    
-
-
-}
-.login-button button:hover{
-    background: rgb(202, 112, 2);
-    border: 2px solid orangered;
-    color: white;
 }
 
 
@@ -200,7 +172,7 @@ header {
 /* BODY */
 
 
-/* SLIEDE */
+/* SLIDE */
 .containerproje {
     position: relative;
 }
@@ -281,7 +253,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .containerproje .slide-container:nth-child(1) .slide {
-    background-image: url(./coxixiix.jpg);
+    background-image: url(coxixiix.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -289,7 +261,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-position: center;
 }
 .containerproje .slide-container:nth-child(2) .slide {
-    background-image: url(./wpp.svg);
+    background-image: url(wpp.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -297,7 +269,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-position: center;
 }
 .containerproje .slide-container:nth-child(3) .slide {
-    background-image: url(./As\ melhores\ coxinhas\ de\ diversos\ sabores.png);
+    background-image: url(diversosSabores.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -367,6 +339,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 16px;
     background-color: #FFFFFF;
 }
+
+
+
+
 
 footer {
     background-color: #F9C57C;
