@@ -64,10 +64,10 @@ header {
 }
 
 .login-button button {
-    border: none;
-    background-color: rgb(230, 19, 19);
-    padding: 10px 15px;
     border-radius: 5px;
+    border: 2px solid orange;
+    background-color: rgb(5, 4, 4);
+    padding: 10px 15px;
     margin-top: 15px;
    
 
@@ -81,12 +81,12 @@ header {
 
 
 }
+.login-button button:hover{
+    background: rgb(202, 112, 2);
+    border: 2px solid orangered;
+    color: white;
+}
 
-    a:active, a:hover {
-        padding: 2px;
-        background-color: #00000069;
-        border-radius: 5px;
-    }
 
 .mobile-menu-icon {
     display: none;
@@ -110,8 +110,18 @@ header {
 
 }
 
+.logo{
+    margin-left: -40px;
+}
+
 .login-button {
     display: none;
+}
+
+.button2{
+   align-items: center;
+   justify-content:center;
+   margin-left: 35%;
 }
 
 .mobile-menu-icon {
@@ -151,8 +161,8 @@ header {
 }
 
 .mobile-menu .login-button button {
-    width: 100%;
-    
+    width: 30%;
+    margin-left: 35%;
 }
 .open{
     display: block;
@@ -176,19 +186,15 @@ header {
 
 
 .containerproje .slide-container .slide .contentproje p{
-    font-size: 16px;
+
+    font-size: 56px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 70%;
-    height: 10%;
+    width: 80%;
+    height: 40%;
 
 }
-
-
-
-
 }
-
 
 
 /* BODY */
@@ -225,14 +231,18 @@ transform: translateX(-50px);
 
 .containerproje .slide-container .slide .contentproje h3 {
     font-size: 35px;
-    color: pink;
+    color:white;
+    margin-bottom: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .containerproje .slide-container .slide .contentproje p {
-    font-size: 16px;
+    font-size: 20px;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    background-color: rgba(235, 144, 92, 0.637);
+border-radius: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 40%;
     height: 10%;
     
@@ -271,7 +281,7 @@ transform: translateX(-50px);
 }
 
 .containerproje .slide-container:nth-child(1) .slide {
-    background-image: url(./coxinhas.png);
+    background-image: url(./coxixiix.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -279,7 +289,7 @@ transform: translateX(-50px);
     background-position: center;
 }
 .containerproje .slide-container:nth-child(2) .slide {
-    background-image: url(./aelequina.jpg);
+    background-image: url(./wpp.svg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -316,10 +326,6 @@ transform: translateX(-50px);
 
 }
 
-.containerproje #prev:hover,
-.containerproje #next:hover{
-    background: rgba(221, 221, 70, 0.856);
-}
 
 .containerproje #prev{
     left: 20px;
