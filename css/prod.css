@@ -18,8 +18,8 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
- 
+    padding: 40px 20px;
+    margin-left: 40px;
 }
 
 
@@ -63,31 +63,6 @@ header {
     color: white;
     font-weight: 400;
 }
-
-.login-button button {
-    border: none;
-    background-color: rgb(230, 19, 19);
-    padding: 10px 15px;
-    border-radius: 5px;
-    margin-top: 15px;
-   
-
-}
-.login-button button a{
-    text-decoration: none;
-    color: #c7c2c2;
-    font-weight: 500;
-    font-size: 15px;
-    
-
-
-}
-
-    a:active, a:hover {
-        padding: 2px;
-        background-color: #00000069;
-        border-radius: 5px;
-    }
 
 .mobile-menu-icon {
     display: none;
@@ -158,6 +133,7 @@ header {
 .open{
     display: block;
 }
+
 }
 
 
@@ -231,15 +207,6 @@ header {
     
 }
 
-.container {
-    display: flex;
-    background-color: #faeed5;
-    width: 354px;
-    height: 249.82px;
-    margin-left: 10px;
-    margin-bottom: 37px;
-}
-
 .meme {
     display: flex;
     background-color: yellow;
@@ -258,6 +225,27 @@ header {
     height: 76px;
     border-radius: 5px;
 }
+
+.container {
+    display: flex;
+    background-color: #faeed5;
+    width: 354px;
+    height: 249.82px;
+    margin-left: 10px;
+    margin-bottom: 37px;
+}
+
+@media screen and (min-width:730px){
+
+.boxs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    
+}
+
 footer {
     background-color: #F9C57C;
     text-align: center;
