@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: bisque;
+}
+header {
+    background-image: linear-gradient(rgb(255, 174, 0), rgb(233, 133, 18), rgb(243, 110, 21));
+    z-index: 2;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px rgba(51, 47, 47, 0.493);
+    background-color: bisque;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item {
+    margin: 0 15px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    background-color: rgb(230, 19, 19);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.login-button button a{
+    text-decoration: none;
+    color: #c7c2c2;
+    font-weight: 500;
+    font-size: 15px;
+}
+a:active, a:hover {
+    padding: 2px;
+    background-color: #00000069;
+    border-radius: 5px;
+}
+.mobile-menu-icon {
+    display: none;
+}
+.mobile-menu {
+    display: none;
+}
+
+/* MENU RESPONSIVO*/
+@media screen and (max-width:768px){
+
+.nav-bar {
+    padding: 1.5rem 4rem;
+
+}
+.nav-item {
+    display: none;
+
+}
+
+.login-button {
+    display: none;
+}
+
+.mobile-menu-icon {
+    display: block;
+  
+}
+    
+.mobile-menu-icon button {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1.2rem;
+}
+
+
+
+.mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+
+}
+
+
+.mobile-menu .login-button {
+    display: block;
+    padding: 1rem 2rem;
+
+}
+
+.mobile-menu .login-button button {
+    width: 100%;
+    
+}
+.open{
+    display: block;
+}
+}
+
+.rectangle{
+    height: 44px;
+    width: 100%;
+    background-color: #F9C57C;
+}
+.box {
+    display: flex;
+    background-color: #FDEDD6;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    margin: 5px 20px 85px 20px;
+    border-radius: 15px;
+}
+.secondbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    height: 210px;
+    margin-top: 20px;
+    border-radius: 22px;
+}
+.image {
+    width: 98%;
+    height: 235px;
+}
+.thirdbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    height: 40%;
+    margin: 20px 0 5px 0;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.div-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-2 {
+    display: flex;
+    background-color: #FDEDD6;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    margin: 37px 0px 37px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+.secondbox-2 {
+    display: flex;
+    background-color: #F9C57C;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 249.82px;
+    margin-top: 20px;
+    border-radius: 22px;
+}
+.image-2 {
+    width: 70%;
+    border-radius: 15px;
+    height: 70%;
+}
+.thirdbox-2 {
+    width: 88%;
+    height: auto;
+    margin: 6px;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+}
+/* Div principal do video, mapa e localização*/
+.container {
+    display: flex;
+    background-color: #faeed5;
+    width: auto;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin: 30px;
+}
+/* div do video*/
+.meme {
+    display: flex;
+    height: 227px;
+    margin: 10px 5px 10px 5px;
+}
+/* video*/
+.meme video {
+    border-radius: 10px;
+}
+.maps {
+    height: 140px;
+    margin: 10px 5px 5px 0;
+    border-radius: 5px;
+}
+.mapa{
+    width: 100%;
+}
+.eddress {
+    background-color: #f2c87a;
+    height: 78px;
+    border-radius: 5px;
+    margin: 10px 5px 5px 0;
+}
+
+.eddress p{
+    display: flex;
+    justify-content: center;
+}
+/*titulos h4 centralizando*/
+h4 {
+    color: #e37e0a;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: #F9C57C;
+    text-align: center;
+    width: 100%;
+    height: 9.45%;
+    padding: 10px;
+}
+.descricao{
+    font-family: 'Caveat', cursive;
+}
+/* descrição das coxinhas */
+.descriptionCox-0{
+    display: flex;
+    flex-direction: column;
+}
+.descriptionCox{
+    display: flex;
+    flex-direction: column;
+}
+.descriptionCox-2{
+    display: flex;
+    flex-direction: column;
+}
+.descriptionCox-3{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Resolução para Tablet de 768px até 998px */
+@media only screen and (min-width: 768px) {
+    .box{
+        margin-bottom: 10px;
+    }
+    .secondbox {
+        width: 80%;
+        height: auto;
+        margin-top: 5px;
+    }
+    .image {
+        width: 100%;
+        height: auto; 
+    }
+    .thirdbox {
+        width: 60%;
+        height: auto;
+    }
+    .div-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .box-2 {
+        width: 39%;
+        height: auto;
+        margin: 0px 0px 85px 0px;
+    }
+    .secondbox-2 {
+        width: 94%;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .thirdbox-2 {
+        width: 90%;
+        margin: 5px 0px 10px 0px;
+        height: 100px;
+    }
+    .container {
+        width: 39%;
+        height: 325px;
+        margin: 0px 0px 75px 0px;
+        padding: 10px;
+    }
+    .meme {
+        height: auto;
+        border-radius: 5px;
+        margin: 0 5px 5px 0px;
+    }
+    .maps {
+        height: 130px;
+        margin: 0 0 5px 0px;
+    }
+    .mapa {
+        height: 130px;
+        width: 99%;
+    }
+    .eddress {
+        height: 156px;
+    }
+    footer{
+        height: 57px;
+    }
+}
+
+/*resolução para  desktop padrão*/
+@media screen and (min-width:992px) {
+    .box{
+        width: 716px;
+        margin-left: 153px;
+    }
+    .thirdbox{
+        margin-top: 0px;
+    }
+    .box-2{
+        width: 30%;
+    }
+}
+
+/*desktop grande*/
+@media screen and (min-width:1199px) {
+    .box{
+        margin-left: 242px;
+        display: flex;
+    }
+    main{
+        margin:0 10% 0 10%;
+    }
+    
+}
+
+/*desktop muito grande*/
+@media screen and (min-width:1420px) and (max-width:2570px){
+    .box{
+        margin-left: 100px;
+        display: flex;
+    }
+    main{
+        margin:0 20% 0 20%;
+    }
+    .container{
+        max-width: 32%;
+    }
+    .box-2{
+        max-width: 100%;
+        height: 100%;
+    }
+    
+}
