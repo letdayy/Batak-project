@@ -257,6 +257,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(coxixiix.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
     height: 100vh;
     background-position: center;
 }
@@ -312,7 +313,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 /* OTHER SECTIONS */
 
-
 .box {
     display: flex;
     background-color: #FDEDD6;
@@ -339,19 +339,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 50.83px;
     margin: 16px;
     background-color: #FFFFFF;
-} 
-
-
-@media screen and (min-width:730px){
-
-.boxs {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 
-}
+
 
 
 footer {

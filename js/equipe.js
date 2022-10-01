@@ -26,7 +26,7 @@ function showSlides(n) {
 }
 
 
-// menu
+// menu lateral
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
