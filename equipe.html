@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nossa Equipe</title>
-    <link rel="stylesheet" href="css/equipe.css">
+    <link rel="stylesheet" href="./css/equipe.css">
     <script src="./js/equipe.js"></script>
-    
+    <script src="https://kit.fontawesome.com/b3a3a9fb0e.js" crossorigin="anonymous"></script>
  
 </head>
 </head>
@@ -23,38 +23,32 @@
          <section  class="menu-lateral">
             <div  class="header-menu-lateral">
 
-            <div  id="sub-btn" onclick="toggleMenu()">
-                <img   src="./assets/equipe/horizontalIcon.png" alt="">
-                </div>
+                <div  id="sub-btn" onclick="openNav()">
+                   <img   src="assets/nossaEquipe/botao.png" alt="">
+               </div>
 
-                <div class="nav-menu-lateral" id=" nav-menu-lateral">
-                    <div class="conteudo-menu-lateral">
+                <div id="mySidenav" class="sidenav">
+                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                   <a href="index.html">Home</a>
+                   <a href="#">Quem somos</a>
+                   <a href="#">Nossos produtos</a>
+                   <a href="#"> Contato</a>
+                 </div>
+                  
+               
 
-                        <a href="">Home</a>
-                        <a href="">Quem somos</a>
-
-                    <div  class="sub-menu">
-                        <a href="">Nossos produtos</a>
-                        <i id="sub-btn" >A</i>
-                        <div class="sub-menu-list">
-                            <a href="#" class="sub-iten">DOCES</a>
-                            <a href="#" class="sub-iten">Salgadas</a>
-                            <a href="#" class="sub-iten">Veganas</a>
-                        </div>
-
-                        <a href="">formulario de contato</a>  
-                   
-                </div>
-
-            </div>
+           </div>
         </section>
 
          <section class="menu-vertical">
             <nav>
-                <a href="">Home</a>
-                <a href="">Quem somos</a>
-                <a href="">Nossos produtos</a>
-                <a href="">formulario de contato</a>
+                <div class="conteudo-nav"><a href="#">Home</a></div>
+                <div class="conteudo-nav"><a href="#">Quem somos?</a></div>
+                <div class="conteudo-nav"><a href="">Nossos produtos</a></div>
+                <div class="conteudo-nav"><a href="">formulario de contato</a></div>
+
+                <spa><i class="fa-brands fa-facebook-f"></i></spa>            
+                <spa><i class="fa-brands fa-instagram"></i></spa>            
             </nav>
          </section>
 
@@ -69,9 +63,36 @@
         <!-- conteudo principal -->
         <section class="container-main">
              <!-- slide --> 
+             <div class="slide-container">
+
                 <div class="slide-container">
-                
+                    <div class="slide fade" >
+                        <div class="nmr-text " >1 / 2</div>
+                            <img src="assets/nossaEquipe/Equipe1.jpg"  alt="image 1"  >
+                        <div class="text">
+                            <h1>Equipe batak</h1>
+                            <span>Pronta para te atender</span>
+                            <p>"Nunca vi uma equipe tao dedicada a entregar um otimo trabalho, com profisionalismo e dedicaçao ao cliente" <i>Fiore Flantino</i></p>
+                        </div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="nmr-text">2 / 2</div>
+                            <div><img src="assets/nossaEquipe/EQUIPECOZINHA.jpg"></div>
+                        <div class="text">LEgenda da imagem 2</div>
+                    </div>
+                  
+                    <!-- Butoes next  e prev -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
                 </div>
+                <br>
+                <!-- circulos -->
+                <div style="text-align:center;">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
+            </div>
 
                 <div class="conteudo-main">
 
@@ -83,7 +104,7 @@
 
                             <section  class="conteudo-card">
                                     <div>
-                                        <h2><span></span>Quem somos</h2>
+                                        <h2><span></span>Quem somos?</h2>
                                         <hr>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, deleniti.</p>
                                     </div>
@@ -93,7 +114,7 @@
                     <!--card Ceo  -->
                     <div class="card-main">
                         <section class="card-img">
-                            <div><img src="" alt=""></div>
+                            <div><img src="assets/Prancheta 1.png" alt=""></div>
                         </section>
                         <section class="conteudo-card">
                                 <div> 
