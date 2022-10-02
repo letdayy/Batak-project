@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #F9C57C;
+    background-color: bisque;
 
 }
 
@@ -242,8 +242,9 @@ body{
 }
 
 .base {
-    background-color: #EF7F22;
+    background-color: #F9C57C;
     text-align: center;
+    align-items: center;
     display: flex;
     width: 100%;
     height: 9.45%;
@@ -252,7 +253,7 @@ body{
 }
 
 footer {
-    background-color: #EF7F22;
+    background-color: #F9C57C;
     text-align: center;
     width: 100%;
     height: 9.45%;
