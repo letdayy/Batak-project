@@ -254,6 +254,7 @@ body {
 
 
 /* SLIEDE */
+
 .containerproje {
     position: relative;
 }
@@ -337,7 +338,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(../assets/coxixiix.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-position: center;
 }
@@ -345,7 +346,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(../assets/wpp.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-position: center;
 }
@@ -353,7 +354,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(../assets/As\ melhores\ coxinhas\ de\ diversos\ sabores.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-position: center;
 }
@@ -391,13 +392,26 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
-/* OTHER SECTIONS */
+/* PRODUCTS */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.boxs {
+    display: flex;
+    justify-content: center;
+}
 
 .box {
     display: flex;
+    align-items: center;
     background-color: #FDEDD6;
-    width: 256.88px;
-    height: 249.82px;
+    width: 350px;
+    height: 300px;
     margin: 37px 60px;
     flex-direction: column;
     margin-bottom: 70px;
@@ -408,22 +422,47 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #F9C57C;
     align-items: center;
     justify-content: center;
-    width: 217px;
-    height: 137px;
+    width: 300px;
+    height: 200px;
     margin-top: 20px;
-    margin-left: 20px;
 }
 
 .thirdbox {
-    width: 226.72px;
-    height: 50.83px;
-    margin: 16px;
-    background-color: #FFFFFF;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
 
+/* Botão Produtos  */
 
+.product {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
 
+button{
+    background: #88BDC1;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #057174;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER  */
 
 footer {
     background-color: #F9C57C;
