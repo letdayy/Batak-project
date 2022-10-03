@@ -43,9 +43,7 @@ body{
     
     /* ESTILIZAÇOES DO MENU LATERAL */
     
-    .menu-lateral{
-     
-    }
+    
     #sub-btn{
         margin-right: 20px;
         padding: 5px;
@@ -242,14 +240,13 @@ body{
 }
 
 .base {
-    background-color: #F9C57C;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    height: 9.45%;
-    padding: 10px;
-    color: white;
+  width: 100%;
+  height: 50px;
+  background-color: #F9C57C;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
 }
 
 footer {
@@ -259,7 +256,6 @@ footer {
     height: 5%;
     padding: 10px;
     display: block;
-    position: absolute;
 }
 
 @keyframes float {
@@ -317,18 +313,7 @@ footer {
         margin-left: 50px;
     }
 
-    footer{
-      bottom: 0;
-      background-color: #F9C57C;
-      text-align: center;
-      width: 100%;
-      height: 5%;
-      padding: 10px;
-      display: block;
-      position: abslute;
-    }
 }
-
 @media (min-width: 1187px) {
   footer{
     bottom: 0;
@@ -338,6 +323,9 @@ footer {
     height: 5%;
     padding: 10px;
     display: block;
-    position: abslute;
+    position: absolute;
   }
 }
+
+
+

@@ -107,15 +107,9 @@ justify-content: center;
     color: #000000be;
 }
 
-.continue-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .continue-button button{
-width: 400px;
-margin-top: 2.5rem;
+width: min(96%, 400px);
+margin-top: 1rem;
 border: none;
 background-color: #F9C57C;
 padding: 0.62rem;
@@ -146,6 +140,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding-bottom: 10px;
+padding-left: 10px;
 }
 
 
@@ -167,7 +162,7 @@ padding-bottom: 10px;
 @media screen and  (max-width: 1064px ){
     .conteiner {
         width: 90%;
-        height: auto;
+        
     }
 
     
