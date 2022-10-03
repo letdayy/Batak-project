@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/prod.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script src="js/produto.js"></script>
+    
     <script src="https://kit.fontawesome.com/b3a3a9fb0e.js" crossorigin="anonymous"></script>
     <title>Batak</title>
 </head>
@@ -38,6 +38,67 @@
                
 
            </div>
+        </section>
+
+
+          <!-- PRODUTOS CARRINHO -->
+        <section class="produtos-header">
+            <div class="produtos-menu-lateral">
+                <div id="sub-btn-prod" onclick="openProd()">
+                 
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+        
+            </div>
+
+            <div id="mySideProd" class="prodNav">
+                 <a href="produtos.html" class="limpar-prod">Limpar</a>
+                <a href="javascript:void(0)" class="closebtnProd" onclick="closeProd()">&times;</a>
+                <div class=" carrinho">
+
+                    <div class="carrinho-itens">
+
+                      <div class="img-produto">
+
+                        <div class="img">  
+                           <img id="img-prod" src="" alt="" style="width:150px ;">
+                        </div>
+
+                      </div>
+
+
+                      <div class="btn-produtos">
+
+                        <span>-Sabores</span>
+                          <div class="btn">
+                            <button id="sabor1" ></button>
+                            <button id="sabor2"></button>
+                            <button  id="sabor3"></button>
+                          </div>
+
+                        <span>-Acto</span>
+                          <div class="btn">
+                            <button id="acompanhamento1"></button>
+                            <button id="acompanhamento2"></button>
+                            <button id="acompanhamento3"></button>
+                          </div>
+
+                          <span>-Extras</span>
+                          <div class="btn">
+                            <button id="extra1"></button>
+                            <button id="extra2"></button>
+                            <button id="extra3"></button>
+                          </div>
+
+                        
+                     </div>
+                     <p id="check"></p>
+                    </div>
+
+                    <button id="btn-click">Click para ir</button>  
+                  </div>
+            </div>
         </section>
 
          <section class="menu-vertical">
@@ -91,7 +152,12 @@
                                 Brócolis cozido + Tempero da casa.</p>
 
                             </div>
+                        
+                              </div>
+                              <div id="sub-btn1"  onclick=" openProd()" onclick="saborProduct()">
+                                <button>CLick 1</button>-
                         </div>
+                        
                     </div>
 
                     <div class="box-2">
@@ -108,7 +174,12 @@
                                 Frango e Carne Seca + Tempero da casa.</p>
 
                             </div>
+                 
+                            
                         </div>
+                        <div id="sub-btn2"  onclick=" openProd()" onclick="saborProduct()">
+                                <button>CLick 2</button>
+                              </div>
 
                     </div>
 
@@ -127,7 +198,8 @@
 
                             </div>
                         </div>
-
+                        <div id="sub-btn3"  onclick=" openProd()" onclick="saborProduct()">
+                            <button>CLick 3</button></div>
                     </div>
                 
                     <!--Div principal do video, mapa e endereço-->
@@ -165,6 +237,8 @@
 
         <footer>copyright ©</footer>
 
+
+<script src="js/produto.js"></script>
     </body>
     
 </html>
