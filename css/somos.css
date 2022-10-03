@@ -259,6 +259,7 @@ footer {
     height: 5%;
     padding: 10px;
     display: block;
+    position: absolute;
 }
 
 @keyframes float {
@@ -316,6 +317,16 @@ footer {
         margin-left: 50px;
     }
 
+    footer{
+      bottom: 0;
+      background-color: #F9C57C;
+      text-align: center;
+      width: 100%;
+      height: 5%;
+      padding: 10px;
+      display: block;
+      position: abslute;
+    }
 }
 
 @media (min-width: 1187px) {
@@ -327,6 +338,6 @@ footer {
     height: 5%;
     padding: 10px;
     display: block;
-    position: absolute;
+    position: abslute;
   }
 }

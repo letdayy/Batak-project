@@ -194,8 +194,10 @@ body {
     font-size: 34px;
     color: floralwhite;
 }
-.painel{
+.painel {
     font-size: min(8vw, 40px);
+    color: white;
+    font-weight: bold;
 }
 /* div principal da imagem c/3 coxinhas */
 .main-box{
@@ -241,9 +243,13 @@ body {
 }
 .titulo {
     font-size: min(5vw, 25px);
+    font-family: Merriweather, serif;
+    color: rgb(211, 117, 40);
+    font-weight: bold;
 }
-.text{
+.text {
     font-size: min(4vw, 20px);
+    font-family: Merriweather, serif;
 }
 .div-main {
     display: flex;
@@ -267,6 +273,8 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
     padding-bottom: 14px;
+    width: min(100%, 313px);
+    
 }
 .secondbox-2 {
     display: flex;
@@ -293,10 +301,10 @@ body {
 /* Div principal do video, mapa e localização*/
 .container {
     display: flex;
-    background-color: #faeed5;
-    width: 89%;
+    background-color: rgb(250, 238, 213);
+    width: min(93%, 381px);
     height: auto;
-    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
     margin: 30px;
     padding: 5px;
@@ -311,6 +319,11 @@ body {
 .meme video {
     border-radius: 10px;
 }
+
+.localization {
+    display: flex;
+    flex-direction: column;
+}
 .maps {
     margin: 10px 5px 5px 0;
     border-radius: 5px;
@@ -320,20 +333,20 @@ body {
     width: 100%;
 }
 .eddress {
-    background-color: #f2c87a;
+    background-color: rgb(242, 200, 122);
     height: 202px;
-    border-radius: 5px;
-    margin: 10px 5px 5px 0;
-    padding: 3px;
     width: 97%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
+    border-radius: 5px;
+    margin: 10px 5px 5px 0px;
+    padding: 3px;
 }
-.eddress img{
-    width: 26px;
-    height: 26px;
+.eddress img {
+    width: min(100%, 49px);
+    height: auto;
 }
 
 footer {
@@ -354,8 +367,11 @@ footer {
 }
 
     /*titulos das coxinhas box-2*/
-.titulo-1, .titulo-2, .titulo-3, .titulo-4{
+.titulo-1, .titulo-2, .titulo-3, .titulo-4 {
     font-size: min(5vw, 25px);
+    font-family: Merriweather, serif;
+    color: rgb(211, 117, 40);
+    font-weight: bold;
 }
 
     /*Descrição das coxinhas box-2*/
@@ -420,22 +436,23 @@ footer {
     }
     
     .container {
-        margin: 5%;
-        width: 35%;
-        height: 30%;
+        width: 277px;
     }
     .meme {
-        height: 256px;
+        height: 310px;
     }
     
     .eddress {
+        height: 205px;
+        display: flex;
+        justify-content: space-around;
         padding: 10px;
-        height: 156px;
     }
+    /*
     .eddress img{
         height: 33px;
         max-width: min(100%, 100%);
-    }
+    }*/
     
     .titulo-1, .titulo-2, .titulo-3, .titulo-4{
         font-size: min(20px, 35px);
@@ -475,8 +492,19 @@ footer {
     .box-2{
         width: 30%;
     }
-    .container{
-        width: 30%;
+    .container {
+        width: min(34%, 414px);
+        margin: 4%;
     }
 
+}
+
+@media only screen and (min-width: 1300px){
+    .eddress {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .box-2{
+        width: min(100%, 416px);
+    }
 }
