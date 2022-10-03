@@ -712,7 +712,7 @@ body {
     /* texto da legenda */
 
     .text {
-        color: white;
+        color: black;
         font-size: 15px;
         padding: 8px 12px;
         /* position: absolute; */
