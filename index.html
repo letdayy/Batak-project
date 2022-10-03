@@ -62,91 +62,88 @@
 
         <!-- slide  -->
 
-        <section class="containerproje">
-            <div class="slide-container active">
-                <div class="slide">
-                    <div class="contentproje">
-                        <h3>Conheça nossas coxinhas:</h3>
-                        <p>Coxinhas para todos os públicos. Coxinhas vegenas, doces e a nossa famosa coxinha tradicional
-                        </p>
-                        <a href="#" class="btnproje">Saiba mais </a>
-                    </div>
-                </div>
-
-            </div>
+        <section class="container-main">
+            <!-- slide -->
             <div class="slide-container">
-                <div class="slide">
-                    <div class="contentproje">
-                        <a href="#" class="btnproje">Saiba mais </a>
+
+                <div class="slide-container">
+                    <div class="slide fade">
+                        <div class="nmr-text ">1 / 2</div>
+                        <img src="assets/coxixiix.jpg" alt="image 1">
+                        <div class="text">
+                            <h1>Conheça nossas coxinhas:</h1>
+                            <p>Coxinhas para todos os públicos. Coxinhas vegenas, doces e a nossa famosa coxinha
+                                tradicional
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="nmr-text">2 / 2</div>
+                        <div><img src="assets/As melhores coxinhas de diversos sabores.png" width="100%"></div>
+                        <div class="text">
+                            <h1>Promoção</h1>
+                            <p>Na compra de um combo com 2 ou mais sabores,<br> receba um brinde exclusivo mais 10% de
+                                desconto.</p>
+
+                        </div>
+                    </div>
+
+                    <!-- Butoes next  e prev -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+                <!-- circulos -->
+                <div style="text-align:center;">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
+            </div>
+
+
+            <!-- produtos  -->
+
+            <h1>Aqui nós temos:</h1>
+
+            <div class="boxs">
+                <div class="box">
+                    <div class="secondbox">
+                        <img class="tradicional" src="./assets/tradicional.png">
+                    </div>
+                    <div class="thirdbox">
+                        <h2>
+                            Coxinhas tradicionais
+                        </h2>
                     </div>
                 </div>
 
-            </div>
-
-            <!-- segundo slide  -->
-
-            <div class="slide-container">
-                <div class="slide">
-
-                    <div class="contentproje">
-                        <h3>Promoção</h3>
-                        <p>Na compra de um combo com 2 ou mais sabores,<br> receba um brinde exclusivo mais 10% de
-                            desconto.</p>
-                        <a href="#" class="btnproje">Saiba mais </a>
+                <div class="box">
+                    <div class="secondbox">
+                        <img src="./assets/doce.png" width="200px">
+                    </div>
+                    <div class="thirdbox">
+                        <h2>
+                            Coxinhas doces
+                        </h2>
                     </div>
                 </div>
 
-            </div>
-
-            <!-- setas  -->
-
-            <div id="prev" onclick="prev()"> <img class="seta" src="assets/setaesquerda.png" width="100%"> </div>
-            <div id="next" onclick="next()"> <img class="seta" src="assets/setadireita.png" width="100%"> </div>
-        </section>
-
-
-        <!-- produtos  -->
-
-        <h1>Aqui nós temos:</h1>
-
-        <div class="boxs">
-            <div class="box">
-                <div class="secondbox">
-                    <img class="tradicional" src="./assets/tradicional.png" >
-                </div>
-                <div class="thirdbox">
-                    <h2>
-                        Coxinhas tradicionais
-                    </h2>
+                <div class="box">
+                    <div class="secondbox">
+                        <img src="./assets/vegana.png" width="200px">
+                    </div>
+                    <div class="thirdbox">
+                        <h2>
+                            Coxinhas veganas
+                        </h2>
+                    </div>
                 </div>
             </div>
 
-            <div class="box">
-                <div class="secondbox">
-                    <img src="./assets/doce.png" width="200px">
-                </div>
-                <div class="thirdbox">
-                    <h2>
-                        Coxinhas doces
-                    </h2>
-                </div>
+            <div class="product"><a href="produtos.html">
+                    <button>Saiba mais</button></a>
             </div>
-
-            <div class="box">
-                <div class="secondbox">
-                    <img src="./assets/vegana.png" width="200px">
-                </div>
-                <div class="thirdbox">
-                    <h2>
-                        Coxinhas veganas
-                    </h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="product"><a href="produtos.html">
-            <button>Saiba mais</button></a>
-        </div>
 
     </main>
 
